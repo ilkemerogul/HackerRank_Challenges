@@ -1,4 +1,8 @@
---Problem Statement
+--     Author: Z. Ilkem Erogul
+--     Github: github.com/ilkemerogul
+-- HackerRank: hackerrank.com/ilkemerogul
+
+-- Problem Statement
 /*
 Given a table STATION that holds data for five fields; ID, CITY, STATE, LAT_N and LONG_W.
 +-------------+-------------+
@@ -14,6 +18,6 @@ Given a table STATION that holds data for five fields; ID, CITY, STATE, LAT_N an
 Query a list of CITY and STATE from the STATION table.
 */
 
---Solution
+-- Solution
 
 SELECT CITY, STATE FROM STATION;

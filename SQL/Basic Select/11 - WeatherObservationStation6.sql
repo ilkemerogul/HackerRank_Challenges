@@ -1,4 +1,8 @@
---Problem Statement
+--     Author: Z. Ilkem Erogul
+--     Github: github.com/ilkemerogul
+-- HackerRank: hackerrank.com/ilkemerogul
+
+-- Problem Statement
 /*
 Given a table STATION that holds data for five fields; ID, CITY, STATE, LAT_N and LONG_W.
 +-------------+-------------+
@@ -14,8 +18,8 @@ Given a table STATION that holds data for five fields; ID, CITY, STATE, LAT_N an
 Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
 */
 
---Solution
+-- Solution
 
 SELECT DISTINCT CITY FROM STATION
-WHERE CITY LIKE 'A%' OR CITY LIKE 'E%' OR CITY LIKE 'I%' OR CITY LIKE 'O%' OR CITY LIKE 'U%' 
+WHERE CITY LIKE 'A%' OR CITY LIKE 'E%' OR CITY LIKE 'I%' OR CITY LIKE 'O%' OR CITY LIKE 'U%'
 ORDER BY CITY ASC;

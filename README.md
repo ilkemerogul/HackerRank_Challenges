@@ -1,2 +1,2 @@
-# Hackerrank
-This repository includes solutions for Hackerrank challenges and will be updated frequently.
+# HackerRank
+This repository includes solutions for HackerRank challenges and will be updated frequently.

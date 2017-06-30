@@ -1,4 +1,8 @@
---Problem Statement
+--     Author: Z. Ilkem Erogul
+--     Github: github.com/ilkemerogul
+-- HackerRank: hackerrank.com/ilkemerogul
+
+-- Problem Statement
 /*
 Given a table STATION that holds data for five fields; ID, CITY, STATE, LAT_N and LONG_W.
 +-------------+-------------+
@@ -14,7 +18,7 @@ Given a table STATION that holds data for five fields; ID, CITY, STATE, LAT_N an
 Query the list of CITY names from STATION that do not start with vowels and do not end with vowels. Your result cannot contain duplicates.
 */
 
---Solution
+-- Solution
 
 SELECT DISTINCT CITY
 FROM STATION

@@ -1,4 +1,8 @@
---Problem Statement
+--     Author: Z. Ilkem Erogul
+--     Github: github.com/ilkemerogul
+-- HackerRank: hackerrank.com/ilkemerogul
+
+-- Problem Statement
 /*
 Given a table STATION that holds data for five fields; ID, CITY, STATE, LAT_N and LONG_W.
 +-------------+-------------+
@@ -14,7 +18,7 @@ Given a table STATION that holds data for five fields; ID, CITY, STATE, LAT_N an
 Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
 */
 
---Solution
+-- Solution
 
 SELECT DISTINCT CITY FROM STATION
 WHERE CITY LIKE '%a' OR CITY LIKE '%e' OR CITY LIKE '%i' OR CITY LIKE '%o' OR CITY LIKE '%u'

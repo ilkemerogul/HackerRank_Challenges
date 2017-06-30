@@ -1,4 +1,8 @@
---Problem Statement
+--     Author: Z. Ilkem Erogul
+--     Github: github.com/ilkemerogul
+-- HackerRank: hackerrank.com/ilkemerogul
+
+-- Problem Statement
 /*
 Given a table CITY that holds data for five fields; ID, NAME, COUNTRYCODE, DISTRICT and POPULATION.
 +-------------+-------------+
@@ -14,6 +18,6 @@ Given a table CITY that holds data for five fields; ID, NAME, COUNTRYCODE, DISTR
 Query the names of all American cities in CITY with populations larger than 120000. The CountryCode for America is USA.
 */
 
---Solution
+-- Solution
 
 SELECT NAME FROM CITY WHERE POPULATION > 120000 AND COUNTRYCODE = 'USA';

@@ -1,4 +1,8 @@
---Problem Statement
+--     Author: Z. Ilkem Erogul
+--     Github: github.com/ilkemerogul
+-- HackerRank: hackerrank.com/ilkemerogul
+
+-- Problem Statement
 /*
 Given a table EMPLOYEE that holds data for three fields; EMPLOYEE_ID, NAME, MONTHS, SALARY.
 
@@ -14,7 +18,7 @@ Given a table EMPLOYEE that holds data for three fields; EMPLOYEE_ID, NAME, MONT
 Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
 */
 
---Solution
+-- Solution
 
 SELECT NAME
 FROM EMPLOYEE
