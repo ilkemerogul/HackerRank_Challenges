@@ -4,7 +4,7 @@
 
 -- Problem Statement
 /*
-Given a table EMPLOYEE that holds data for three fields; EMPLOYEE_ID, NAME, MONTHS, SALARY.
+Given a table EMPLOYEE that holds data for four fields; EMPLOYEE_ID, NAME, MONTHS, SALARY.
 
 +-------------+-------------+
 | Field       |   Type      |
