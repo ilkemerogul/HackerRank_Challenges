@@ -1,3 +1,16 @@
+//     Author: Z. Ilkem Erogul
+//     Github: github.com/ilkemerogul
+// HackerRank: hackerrank.com/ilkemerogul
+
+// Problem Statement
+/*
+To complete this challenge, you must save a line of input from stdin to a variable, print Hello, World. on a single line, and finally print the value of your variable on a second line.
+
+You've got this!
+*/
+
+// Solution
+
 import java.io.*;
 import java.util.*;
 import java.text.*;
